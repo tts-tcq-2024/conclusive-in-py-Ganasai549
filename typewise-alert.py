@@ -40,4 +40,4 @@ def send_to_email(breach_type):
         print('Hi, the temperature is too low')
     elif breach_type == 'TOO_HIGH':
         print(f'To: {recipient}')
-        print('Hi, the temperature is too high')
+        print('Hi, the temperature is too high') 
