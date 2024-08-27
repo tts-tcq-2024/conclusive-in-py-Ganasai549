@@ -51,4 +51,4 @@ class typewise_alert:
     @staticmethod
     def check_and_alert(alert_strategy, cooling_type_strategy, temperature_in_c):
         breach_type = cooling_type_strategy.classify_breach(temperature_in_c)
-        return alert_strategy.send_alert(breach_type)
+        return alert_strategy.send_alert(breach_type) 
