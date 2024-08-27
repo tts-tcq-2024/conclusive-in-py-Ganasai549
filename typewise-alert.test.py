@@ -50,4 +50,4 @@ class TypewiseTest(unittest.TestCase):
         self.assertEqual(result, 'To: a.b@c.com\nHi, the temperature is too high')
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main() 
